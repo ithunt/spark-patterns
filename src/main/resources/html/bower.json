@@ -1,0 +1,27 @@
+{
+  "name": "spark-patterns",
+  "version": "0.0.0",
+  "authors": [
+    "ian <ithunt0@gmail.com>"
+  ],
+  "description": "Application Components built on Angular & Java 8",
+  "license": "MIT",
+  "homepage": "iansails.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.1",
+    "bootstrap": "~3.3.0",
+    "jquery": "~2.1.1",
+    "underscore": "~1.7.0",
+    "angular-cookies": "~1.3.1",
+    "angular-resource": "~1.3.1",
+    "angular-sanitize": "~1.3.1",
+    "angular-route": "~1.3.1"
+  }
+}

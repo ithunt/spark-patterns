@@ -1,0 +1,31 @@
+<h2>All Messages <a class="btn btn-primary pull-right" href="#/create"><i
+        class="icon-plus-sign icon-white"></i> New Message</a></h2>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Message
+        </th>
+        <th>
+            Created On
+        </th>
+    </tr>
+    <tr ng-repeat="message in messages">
+        <td>{{$index+1}}</td>
+        <td>
+            {{message.title}}
+        </td>
+        <td>
+            {{message.text}}
+        </td>
+        <td>
+            {{todo.created |date:'medium'}}
+        </td>
+    </tr>
+</table>
