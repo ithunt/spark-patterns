@@ -19,6 +19,8 @@ Java 8 Syntax is sorta better than @Annotations Though its honestly isn't as rea
 
 Learned alot about how to setup bower which I will definitely use in future apps.
 
+    bower install jquery --save
+
 ### Articles
 https://blog.openshift.com/developing-single-page-web-applications-using-java-8-spark-mongodb-and-angularjs/
 https://thinkster.io/egghead/intro-to-bower/
