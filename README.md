@@ -6,6 +6,16 @@
 	http://localhost:8080
 
 Spark makes it simple to build a lightweight java web application. Packaging it into a jar is kinda cool but it's missing the simplicity of Spring MVC for certain
+Java 8 Syntax is sorta better than @Annotations Though its honestly isn't as readable
+
+     post(API_CONTEXT + "/messages", "application/json", (request, response) -> {
+                messageService.createNewMessage(request.body());
+                response.status(201);
+                return response;
+            }, new JsonTransformer());
+
+     get(API_CONTEXT + "/messages/:id", "application/json", (request, response)
+                    -> messageService.find(request.params(":id")), new JsonTransformer());
 
 Learned alot about how to setup bower which I will definitely use in future apps.
 
